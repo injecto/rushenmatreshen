@@ -13,7 +13,9 @@ if (!function_exists('griffin_setup')):
 		add_editor_style(get_template_directory_uri() . '/assets/css/editor-style.css');
 		// set content width 
 		global $content_width;  
-		if (!isset($content_width)) {$content_width = 750;}		
+		if (!isset($content_width)) {$content_width = 750;}	
+
+		load_theme_textdomain('griffin', get_template_directory() . '/languages');	
 	}
 endif; 
 add_action('after_setup_theme', 'griffin_setup');
