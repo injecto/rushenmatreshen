@@ -1,6 +1,6 @@
 </div>
 <footer>
-	<?php if (is_active_sidebar('footer-left') || is_active_sidebar('footer-middle') || is_active_sidebar('footer-right')) : ?>
+	<?php if (is_home() && (is_active_sidebar('footer-left') || is_active_sidebar('footer-middle') || is_active_sidebar('footer-right'))) : ?>
 	<div id="footer-widgets">
 		<div class="container">
 			<div class="col-md-4">
