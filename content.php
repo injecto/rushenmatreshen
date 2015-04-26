@@ -23,7 +23,7 @@
 		</div>
 		<?php wp_link_pages('before=<div id="post-links">&after=</div>'); ?>		
 		<div id="post-footer" class="clearfix">
-			<p><?php echo get_avatar(get_the_author_meta( 'ID' ), 32); ?> <?php the_author(); ?> &bull; <?php the_time(get_option('date_format')); ?></p>
+			<div><?php echo get_avatar(get_the_author_meta( 'ID' ), 32); ?> <?php the_author(); ?> &bull; <?php the_time(get_option('date_format')); ?></div><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="small" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki" data-yashareTheme="counter"></div>
 			<hr />
 			<div id="post-nav">
 				<?php previous_post_link('<div id="post-nav-prev"><p><span>&Larr;</span> Previous Post</span></p>%link</div>'); ?> 	

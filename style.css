@@ -135,7 +135,7 @@ article #post-links {margin:0 30px 30px 30px;}
 article #post-links a {border:1px solid #ccc; padding:3px 8px; color:#aaa; text-decoration:none; font-size:15px;}
 article #post-links a:hover {background-color:#ccc; color:#009dd9;}
 article #post-footer {background-color:#f7f7f7; padding:30px; color:#999; border-top:1px solid #f1f1f1;}
-article #post-footer p {margin:0; font-size:15px;}
+article #post-footer div {margin:0; font-size:15px;}
 article #post-footer .avatar {margin-right:10px;}
 article #post-nav {margin-bottom:20px; line-height:22px; font-size:14px;}
 article #post-nav p {color:#999; margin-bottom:6px; font-size:12px; font-style:italic;}
@@ -213,3 +213,6 @@ input[type=password] {width:50%;}
 	.teaser .attachment-featured-teaser {width:100%;}
 	.teaser-title {padding-right:0;}
 }
+/* custom rushenmatreshen selectors */
+article #post-footer div {display: inline;}
+article #post-footer div.yashare-auto-init {float: right;}
