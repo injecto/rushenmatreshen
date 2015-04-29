@@ -151,7 +151,7 @@ add_action('wp_enqueue_scripts', 'griffin_custom_css');
 // custom excerpt 
 function new_excerpt_more($more) {
 	global $post;
-	return '... <p><a class="teaser-more" href="'. get_permalink($post->ID) . '">' . 'Continue Reading' . '</a></p>';
+	return '<span>...</span><p><a class="teaser-more" href="'. get_permalink($post->ID) . '">' . __('Continue Reading', 'griffin') . '</a></p>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 
@@ -244,8 +244,8 @@ if (!function_exists('griffin_pagination')):
 			'current' => max(1, get_query_var('paged')),
 			'total' => $wp_query->max_num_pages,
 			'prev_next' => True,
-			'prev_text' => __('<span>&Larr;</span> Previous', 'griffin'),
-			'next_text' => __('Next <span>&Rarr;</span>', 'griffin'),
+			'prev_text' => __('<span>&larr;</span> Previous', 'griffin'),
+			'next_text' => __('Next <span>&rarr;</span>', 'griffin'),
 		));
 		echo '</div>';
 	}

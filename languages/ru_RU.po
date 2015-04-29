@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: griffin 1.0.9\n"
-"POT-Creation-Date: 2015-04-23 23:10+0300\n"
-"PO-Revision-Date: 2015-04-23 23:43+0300\n"
+"POT-Creation-Date: 2015-04-29 21:55+0300\n"
+"PO-Revision-Date: 2015-04-29 22:05+0300\n"
 "Last-Translator: Vladimir Glushenkov <injecto.wg@gmail.com>\n"
 "Language-Team: injecto <injecto.wg@gmail.com>\n"
 "Language: Russian\n"
@@ -17,31 +17,46 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: /home/injecto/localization/griffin\n"
 
+#: /home/injecto/localization/griffin/content.php:28
+msgid "Previous post"
+msgstr "Предыдущий пост"
+
+#: /home/injecto/localization/griffin/content.php:29
+msgid "Next post"
+msgstr "Следующий пост"
+
 #: /home/injecto/localization/griffin/index.php:3
 #: /home/injecto/localization/griffin/content-none.php:7
-msgid "Search results:"
-msgstr "Мы нашли это:"
+msgid "Search results for"
+msgstr "Результаты поиска"
 
 #: /home/injecto/localization/griffin/footer.php:22
-msgid "Copyright &copy; 2014"
-msgstr "Copyright &copy; 2014"
+msgid "Copyright &copy; "
+msgstr "Copyright &copy;"
 
-#: /home/injecto/localization/griffin/footer.php:22
-msgid "Griffin Theme"
-msgstr "Griffin Theme"
+#: /home/injecto/localization/griffin/comments.php:4
+msgid "Comments"
+msgstr "Комментарии"
 
 #: /home/injecto/localization/griffin/comments.php:10
 msgid "Comments are closed."
-msgstr "Извините, но мы временно закрыли комментарии."
+msgstr "Извините, мы временно закрыли комментарии"
 
 #: /home/injecto/localization/griffin/comments.php:15
 msgid "Your email address will not be published / Required fields are marked *"
-msgstr ""
-"Мы не будет открыто публиковать ваш email  / Обязательно заполните поля с *"
+msgstr "Мы не будем публиковать ваш email-адрес. Обязательные поля отмечены *"
+
+#: /home/injecto/localization/griffin/comments.php:17
+msgid "Author"
+msgstr "Автор"
 
 #: /home/injecto/localization/griffin/comments.php:17
 msgid "Name*"
 msgstr "Ваше имя *"
+
+#: /home/injecto/localization/griffin/comments.php:18
+msgid "Email"
+msgstr "Email"
 
 #: /home/injecto/localization/griffin/comments.php:18
 msgid "Email*"
@@ -73,8 +88,7 @@ msgstr ""
 msgid ""
 "It seems we cannot find what you&rsquo;re looking for. Perhaps searching can "
 "help."
-msgstr ""
-"Кажется, мы не смогли найти то, что вы запросили. Попробуйте поискать это."
+msgstr "Упс. У нас нет ничего по вашему запросу. Может, поискать?"
 
 #: /home/injecto/localization/griffin/functions.php:6
 msgid "Primary Menu"
@@ -84,87 +98,94 @@ msgstr "Основное меню"
 msgid "Footer Menu"
 msgstr "Нижнее меню"
 
-#: /home/injecto/localization/griffin/functions.php:55
+#: /home/injecto/localization/griffin/functions.php:57
 #, php-format
 msgid "Page %s"
-msgstr "Страничка %s"
+msgstr "Страница %s"
 
-#: /home/injecto/localization/griffin/functions.php:75
+#: /home/injecto/localization/griffin/functions.php:77
 msgid "Custom Logo"
 msgstr "Пользовательский логотип"
 
-#: /home/injecto/localization/griffin/functions.php:84
+#: /home/injecto/localization/griffin/functions.php:86
 msgid "Logo"
 msgstr "Логотип"
 
-#: /home/injecto/localization/griffin/functions.php:90
+#: /home/injecto/localization/griffin/functions.php:92
 msgid "Custom Colors"
 msgstr "Пользовательские цвета"
 
-#: /home/injecto/localization/griffin/functions.php:98
+#: /home/injecto/localization/griffin/functions.php:100
 msgid "Background Color"
 msgstr "Цвет фона"
 
-#: /home/injecto/localization/griffin/functions.php:107
+#: /home/injecto/localization/griffin/functions.php:109
 msgid "Site Title Color"
 msgstr "Цвет названия"
 
-#: /home/injecto/localization/griffin/functions.php:116
+#: /home/injecto/localization/griffin/functions.php:118
 msgid "Tagline Color"
 msgstr "Цвет подзаголовка"
 
-#: /home/injecto/localization/griffin/functions.php:125
+#: /home/injecto/localization/griffin/functions.php:127
 msgid "Secondary Color"
 msgstr "Дополнительный цвет"
 
-#: /home/injecto/localization/griffin/functions.php:159
+#: /home/injecto/localization/griffin/functions.php:154
+msgid "Continue Reading"
+msgstr "Продолжить чтение"
+
+#: /home/injecto/localization/griffin/functions.php:161
 msgid "Primary Sidebar"
 msgstr "Основная боковая панель"
 
-#: /home/injecto/localization/griffin/functions.php:161
+#: /home/injecto/localization/griffin/functions.php:163
 msgid "Widgets will appear in the right sidebar on posts and pages"
 msgstr "Виджеты отобразятся в правой боковой панели постов и страниц"
 
-#: /home/injecto/localization/griffin/functions.php:168
+#: /home/injecto/localization/griffin/functions.php:170
 msgid "Footer Left"
 msgstr "Левая часть подвала"
 
-#: /home/injecto/localization/griffin/functions.php:170
+#: /home/injecto/localization/griffin/functions.php:172
 msgid "Widgets will appear in the left column of the footer"
 msgstr "Виджеты отобразятся в левой части подвала"
 
-#: /home/injecto/localization/griffin/functions.php:177
+#: /home/injecto/localization/griffin/functions.php:179
 msgid "Footer Middle"
 msgstr "Центральная часть подвала"
 
-#: /home/injecto/localization/griffin/functions.php:179
+#: /home/injecto/localization/griffin/functions.php:181
 msgid "Widgets will appear in the middle column of the footer"
 msgstr "Виджеты отобразятся в центральной части подвала"
 
-#: /home/injecto/localization/griffin/functions.php:186
+#: /home/injecto/localization/griffin/functions.php:188
 msgid "Footer Right"
 msgstr "Правая часть подвала"
 
-#: /home/injecto/localization/griffin/functions.php:188
+#: /home/injecto/localization/griffin/functions.php:190
 msgid "Widgets will appear in the right column of the footer"
 msgstr "Виджеты отобразятся в правой части подвала"
 
-#: /home/injecto/localization/griffin/functions.php:219
+#: /home/injecto/localization/griffin/functions.php:221
 msgid "Edit"
 msgstr "Редактировать"
 
-#: /home/injecto/localization/griffin/functions.php:220
+#: /home/injecto/localization/griffin/functions.php:222
 msgid "Reply"
 msgstr "Ответить"
 
-#: /home/injecto/localization/griffin/functions.php:224
+#: /home/injecto/localization/griffin/functions.php:226
 msgid "Comment is awaiting moderation!"
 msgstr "Ваш комментарий ожидает модерации"
 
-#: /home/injecto/localization/griffin/functions.php:245
-msgid "<span>&Larr;</span> Previous"
-msgstr "<span>&Larr;</span> Предыдущий"
+#: /home/injecto/localization/griffin/functions.php:247
+msgid "<span>&larr;</span> Previous"
+msgstr "<span>&larr;</span> Назад"
 
-#: /home/injecto/localization/griffin/functions.php:246
-msgid "Next <span>&Rarr;</span>"
-msgstr "Следующий <span>&Rarr;</span>"
+#: /home/injecto/localization/griffin/functions.php:248
+msgid "Next <span>&rarr;</span>"
+msgstr "Вперед  <span>&rarr;</span>"
+
+#~ msgid "Griffin Theme"
+#~ msgstr "Griffin Theme"

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <?php if (is_search()) : ?>
-    <h1><?php _e('Search results:', 'griffin'); echo ' "' . get_search_query() . '"'; ?></h1>
+    <h1><?php _e('Search results for', 'griffin'); echo ' "' . get_search_query() . '"'; ?></h1>
 <?php endif; ?>
 <div class="spinner">
   <div class="rect1"></div>

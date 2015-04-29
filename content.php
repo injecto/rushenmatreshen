@@ -23,11 +23,10 @@
 		</div>
 		<?php wp_link_pages('before=<div id="post-links">&after=</div>'); ?>		
 		<div id="post-footer" class="clearfix">
-			<div><?php echo get_avatar(get_the_author_meta( 'ID' ), 32); ?> <?php the_author(); ?> &bull; <?php the_time(get_option('date_format')); ?></div><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="small" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki" data-yashareTheme="counter"></div>
-			<hr />
+			<div><?php echo get_avatar(get_the_author_meta( 'ID' ), 32); ?> <?php the_author(); ?> &bull; <?php the_time(get_option('date_format')); ?></div><div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="small" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter"></div><hr />
 			<div id="post-nav">
-				<?php previous_post_link('<div id="post-nav-prev"><p><span>&Larr;</span> Previous Post</span></p>%link</div>'); ?> 	
-				<?php next_post_link('<div id="post-nav-next"><p>Next Post <span>&Rarr;</span></p>%link</div>'); ?> 	
+				<?php previous_post_link('<div id="post-nav-prev"><p><span>&larr; </span>' . __('Previous post', 'griffin') . '</span></p>%link</div>'); ?>
+				<?php next_post_link('<div id="post-nav-next"><p>' . __('Next post', 'griffin') . '<span> &rarr;</span></p>%link</div>'); ?>
 			</div>	
 		</div>	
 	</article>	
