@@ -19,7 +19,7 @@
 		<div class="container">
 			<div class="col-md-12">
 				<?php wp_nav_menu(array('theme_location' => 'footer','depth' => 1,'container' => false,'fallback_cb' => false)); ?> 
-				<p><?php _e('Copyright &copy; ', 'griffin'); echo the_time('Y'); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
+				<p><?php _e('Copyright &copy;&nbsp;', 'griffin'); echo the_time('Y'); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
 			</div>
 		</div>
 	</div>

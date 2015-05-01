@@ -151,7 +151,7 @@ add_action('wp_enqueue_scripts', 'griffin_custom_css');
 // custom excerpt 
 function new_excerpt_more($more) {
 	global $post;
-	return '<span>...</span><p><a class="teaser-more" href="'. get_permalink($post->ID) . '">' . __('Continue Reading', 'griffin') . '</a></p>';
+	return '<span>...</span><p class="teaser-more-p"><a class="teaser-more" href="'. get_permalink($post->ID) . '">' . __('Continue Reading', 'griffin') . '</a></p>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 

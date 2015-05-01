@@ -13,6 +13,8 @@ Griffin WordPress Theme is distributed under the terms of the GNU GPL
 Text Domain: griffin
 */ 
 
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Bad+Script&subset=latin,cyrillic);
+
 body {background-color:#f3f3f3; color:#333; font-family:'Ubuntu', sans-serif;}
 h1, h2, h3, h4, h5, h6 {margin-top:0; color:#000;}
 a {color:#444;}
@@ -216,3 +218,46 @@ input[type=password] {width:50%;}
 /* custom rushenmatreshen selectors */
 article #post-footer div {display: inline;}
 article #post-footer div.yashare-auto-init {float: right;}
+
+body {color:#222; font-family:'Lora',serif;}
+h1, h2, h3, h4, h5, h6 {color:#222;font-family:'Bad Script',cursive;}
+header #header-name {border: 2px solid #fff7f6}
+header #header-name:hover {opacity:0.8;}
+header #header-description {font-family:'Bad Script',cursive;margin:14px 0;font-style:normal;font-size:20px;top: 0px;font-weight:bolder;}
+#primary-menu {background-color:#FFFAEF;}
+#primary-menu li a {color:#4B989F;}
+#primary-menu li a:hover {color:#AFB7B8;}
+#primary-menu .sub-menu {background-color:#FFFAEF;}
+
+#primary-menu .menu-item-has-children:hover a {color:#AFB7B8;}
+#primary-menu .menu-item-has-children:hover .sub-menu li a {color:#4B989F;}
+#primary-menu .menu-item-has-children:hover .sub-menu li.menu-item-object-category a:hover {color:#AFB7B8;}
+
+#primary-menu li {padding:12px 26px;font-size:18px;}
+#primary-menu .sub-menu li {font-size:16px;}
+#primary-menu .sub-menu {border-radius:0 0 3px 3px}
+
+.teaser-more {border-bottom:1px solid #4b989f;font-style: italic;text-transform: none;}
+.teaser-text:last-child {text-align:right;}
+.teaser-more-p {text-align:right}
+.teaser-footer img {border-radius:3px}
+
+#footer-meta {background-color:#FFFAEF;}
+#footer-widgets {background-color: #FFFCF5;}
+#footer-widgets .widget h4 {border-color:#4B989F;color:#4B989F;}
+#footer-widgets .widget {color:#222;}
+#footer-widgets .widget a, #sidebar-widgets .widget a, #comments a {color:#4B989F;}
+#footer-widgets .widget p a:hover, #sidebar-widgets .widget p a:hover,  #comments a:hover {color:#AFB7B8;}
+#sb_instagram .sbi_follow_btn a, #sb_instagram #sbi_load a.sbi_load_btn {background: #FFE7E5;color:#4B989F;padding: 10px 14px;border-radius: 2px;}
+input[type=submit], input[type=reset] {background: #FFE7E5;color:#4B989F;}
+input[type=submit]:hover, input[type=reset]:hover {opacity:0.85;}
+.mc-field-group input[type=email] {margin: 10px 0;width: 100%;}
+#mc_embed_signup div.mc-field-group div.mce_inline_error {background-color: #FFE7E5;font-weight: normal;color: #222;border-radius: 2px;}
+#mc_embed_signup div.mc-field-group {width: 63%;float: left;}
+#mc_embed_signup input[type=submit] {margin: 13px 0px 0px 10px;}
+.widget p {clear: left;}
+
+#sb_instagram .sbi_header_text h3 {font-family: 'Lora',serif;}
+
+article #post-tags a {background-color: #E6F4F5;color: #828A8B;}
+#comments textarea#comment {height: 70px;}
